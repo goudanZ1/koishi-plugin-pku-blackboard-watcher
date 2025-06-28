@@ -1,0 +1,21 @@
+{
+  "name": "koishi-plugin-pku-blackboard-watcher",
+  "description": "定时查询北大教学网上是否有新通知、将近的 DDL，并发送提醒消息",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.18.7",
+    "koishi-plugin-cron": "^1.0.0"
+  }
+}
